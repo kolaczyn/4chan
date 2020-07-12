@@ -1,0 +1,58 @@
+body{
+  background-color: #fedebc;
+}
+
+#logo{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.main{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#what-is-4chan .header{
+  color: white;
+  background-color: #880000;
+}
+
+li {
+  list-style-type: none;
+}
+
+#what-is-4chan .content{
+  font-size: .8rem;
+  background-color: #fff;
+  padding: .2rem .5rem;
+}
+
+.boards, .popular-threads, .stats{
+  margin-top: 10px;
+  color: #880000;
+  border: 1px solid #880000;
+}
+
+.boards .header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  background-color: white;
+}
+
+.header{
+  font-size: 1.2rem;
+  padding: .2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffccaa;
+}
+
+.stats .content{
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-around;
+}
