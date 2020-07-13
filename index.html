@@ -11,10 +11,10 @@
   <body>
     <img src="assets/logo-transparent.png" alt="" id="logo" />
     <div class="main">
-      <div id="what-is-4chan">
+      <div id="what-is-4chan" class="what-is-4chan">
         <div class="header">
           <b>What is 4chan?</b>
-          <button class="dismiss-button">X</button>
+          <button id="dismiss-button" class="dismiss-button">X</button>
         </div>
         <div class="content">
           <p>
@@ -36,7 +36,7 @@
       <div class="boards">
         <div class="header">
           <li><b>Boards</b></li>
-          <li>filter ▼</li>
+          <li >filter ▼</li>
         </div>
         <div class="content">
           <div class="boards-list">
@@ -137,7 +137,9 @@
         <div class="content">
           <div class="popular-thread">
             <div class="thread-name">Handsome Men</div>
-            <img src="assets/thread1.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread1.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               /r6g/ - Rainbow Six General: >Latest news:
               https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/1YPQ5yw9TaRhQwghj...
@@ -145,14 +147,18 @@
           </div>
           <div class="popular-thread">
             <div class="thread-name">Television & Film</div>
-            <img src="assets/thread2.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread2.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               >its just a normal island, there's nothing interesting about it
             </div>
           </div>
           <div class="popular-thread">
             <div class="thread-name">International</div>
-            <img src="assets/thread3.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread3.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               What time in history would you like to go back to? I would go back
               to WWII and fight Nazis.
@@ -160,7 +166,9 @@
           </div>
           <div class="popular-thread">
             <div class="thread-name">Video Games</div>
-            <img src="assets/thread4.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread4.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               No More Heroes 3 - The Return: >60 FPS >Open World >NMH1 gameplay
               >NMH2 improvements like tiger mode and multiple weapo...
@@ -168,12 +176,16 @@
           </div>
           <div class="popular-thread">
             <div class="thread-name">Television & Film</div>
-            <img src="assets/thread5.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread5.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">ITT: Real life kinos</div>
           </div>
           <div class="popular-thread">
             <div class="thread-name">Literature</div>
-            <img src="assets/thread6.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread6.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               Books about veganism? I've been watching videos of what happens in
               factory farming and it makes...
@@ -181,14 +193,18 @@
           </div>
           <div class="popular-thread">
             <div class="thread-name">Travel</div>
-            <img src="assets/thread7.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread7.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               >AND THEN ALONG CAME ZEUS
             </div>
           </div>
           <div class="popular-thread">
             <div class="thread-name">Technology</div>
-            <img src="assets/thread8.jpg" width="150px" alt="" />
+            <a href="/">
+              <img src="assets/thread8.jpg" width="150px" alt="" />
+            </a>
             <div class="thread-description">
               Be honest /g/, what was your first reaction to the iPhone?
             </div>
@@ -205,21 +221,25 @@
       </div>
     </div>
     <div class="footer">
-      <li>Home</li>
-      <li>News</li>
-      <li>Blog</li>
-      <li>FAQ</li>
-      <li>Rules</li>
-      <li>Support 4chan</li>
-      <li>Advertise</li>
-      <li>Press</li>
-      <li>日本語</li>
+      <div class="links-part-one">
+        <li>Home</li>
+        <li>News</li>
+        <li>Blog</li>
+        <li>FAQ</li>
+        <li>Rules</li>
+        <li>Support 4chan</li>
+        <li>Advertise</li>
+        <li>Press</li>
+        <li>日本語</li>
+      </div>
+      <div class="links-part-two">
+        <a href="/">About</a> • <a href="/">Feedback</a> •
+        <a href="/">Legal</a> •
+        <a href="/">Contact</a>
+      </div>
+      <div class="copyright">
+        Copyright © 2003-2020 4chan community support LLC. All rights reserved.
+      </div>
     </div>
   </body>
 </html>
-
-<!-- 
-  TODO
-  fix font size and add custom font
-  popular threads should probably use grid instead of flex
- -->

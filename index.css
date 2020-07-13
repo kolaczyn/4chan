@@ -1,5 +1,7 @@
 body {
   background-color: #ffffee;
+  color: #880000;
+  font-size: small;
 }
 
 #logo {
@@ -33,18 +35,21 @@ li {
 .popular-threads,
 .stats {
   margin-top: 10px;
-  color: #880000;
   border: 1px solid #880000;
 }
 
-#what-is-4chan {
+.what-is-4chan {
   border: 1px solid #880000;
 }
 
-#what-is-4chan .header {
+.what-is-4chan .header {
   display: flex;
   color: white;
   background-color: #880000;
+}
+
+.what-is-4chan .content{
+  color: black;
 }
 
 .dismiss-button {
@@ -53,7 +58,7 @@ li {
   background-color: transparent;
 }
 
-#what-is-4chan .content {
+.what-is-4chan .content {
   font-size: 0.8rem;
   background-color: #fff;
   padding: 0.2rem 0.5rem;
@@ -92,11 +97,12 @@ li {
 
 .stats .content {
   display: flex;
-  padding: .5rem 20px;
+  padding: 0.5rem 20px;
   justify-content: space-around;
 }
 
-.footer {
+
+.footer .links-part-one{
   width: 900px;
   align-self: center;
   display: flex;
@@ -105,9 +111,7 @@ li {
   margin: 5px auto;
 }
 
-
-.footer li {
-  font-size: 0.8rem;
+.footer .links-part-one li {
   padding: 0.2rem 1rem;
   background-color: #ffeedd;
   border: 1px solid #880000;
@@ -118,4 +122,13 @@ li {
 
 .footer li:last-child {
   border-right: 1px solid #880000;
+}
+
+.footer {
+  font-size: .8rem;
+  text-align: center;
+}
+
+.footer .links-part-two{
+  margin: 2.5rem;
 }
