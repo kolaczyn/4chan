@@ -75,9 +75,6 @@ li {
   font-weight: bold;
 }
 
-.popular-thread {
-  max-width: 180px;
-}
 
 .popular-threads .content {
   display: flex;
@@ -95,5 +92,40 @@ li {
 .dismiss-button{
   width: 2rem;
   color: white;
-  background-color: #00000000;
+  background-color: transparent;
+}
+
+.popular-thread{
+  margin: 10px;
+  text-align:center;
+  width: 200px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.footer{
+  width: 900px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #880000;
+  margin: 5px auto;
+}
+
+.footer li{
+  font-size: .8rem;
+  padding: .2rem 1rem;
+  background-color: #ffeedd;
+  border: 1px solid #880000;
+  border-top: none;
+  border-right: none;
+  color: #880000;
+}
+
+.footer li:last-child{
+  border-right: 1px solid #880000;
+}
+
+.stats .content{
+  padding: .5rem;
 }
