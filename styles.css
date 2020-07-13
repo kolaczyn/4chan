@@ -1,19 +1,21 @@
-body{
-  background-color: #fedebc;
+body {
+  background-color: #ffffee;
 }
 
-#logo{
+#logo {
   display: block;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
-.main{
-  width: 800px;
+.main {
+  width: 900px;
   margin: 0 auto;
 }
 
-#what-is-4chan .header{
+#what-is-4chan .header {
+  display: flex;
+  align-items: center;
   color: white;
   background-color: #880000;
 }
@@ -22,37 +24,76 @@ li {
   list-style-type: none;
 }
 
-#what-is-4chan .content{
-  font-size: .8rem;
+#what-is-4chan .content {
+  font-size: 0.8rem;
   background-color: #fff;
-  padding: .2rem .5rem;
+  padding: 0.2rem 0.5rem;
 }
 
-.boards, .popular-threads, .stats{
+#what-is-4chan{
+  border: 1px solid #880000;
+}
+
+.boards,
+.popular-threads,
+.stats{
   margin-top: 10px;
   color: #880000;
   border: 1px solid #880000;
 }
 
-.boards .header{
+.boards .header {
   display: flex;
   justify-content: space-between;
 }
 
-.content{
+.content {
   background-color: white;
 }
 
-.header{
+.header {
   font-size: 1.2rem;
-  padding: .2rem;
+  padding: 0.2rem;
   display: flex;
   justify-content: space-between;
   background-color: #ffccaa;
 }
 
-.stats .content{
+.stats .content {
   display: flex;
   padding: 5px 20px;
   justify-content: space-around;
+}
+
+.boards .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.board-category {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.popular-thread {
+  max-width: 180px;
+}
+
+.popular-threads .content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.popular-thread img {
+  border: 2px solid #880000;
+}
+
+.popular-thread .thread-name {
+  font-weight: bold;
+}
+
+.dismiss-button{
+  width: 2rem;
+  color: white;
+  background-color: #00000000;
 }
