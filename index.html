@@ -1,116 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4chan</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="shortcut icon" href="assets/website-logo.png" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <img src="assets/logo-transparent.png" alt="" id="logo" />
-    <div class="main">
-      <div id="what-is-4chan" class="what-is-4chan">
-        <div class="header">
-          <b>What is 4chan?</b>
-          <button id="dismiss-button" class="dismiss-button">X</button>
-        </div>
-        <div class="content">
-          <p>
-            4chan is a simple image-based bulletin board where anyone can post
-            comments and share images. There are boards dedicated to a variety
-            of topics, from Japanese animation and culture to videogames, music,
-            and photography. Users do not need to register an account before
-            participating in the community. Feel free to click on a board below
-            that interests you and jump right in!
-          </p>
-          <p>
-            Be sure to familiarize yourself with the
-            <a href="/">Rules</a> before posting, and read the
-            <a href="/">FAQ</a> if you wish to learn more about how to use the
-            site.
-          </p>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4chan</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="shortcut icon" href="assets/website-logo.png" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <img src="assets/logo-transparent.png" alt="" id="logo" />
+  <div class="main">
+    <div id="what-is-4chan" class="what-is-4chan">
+      <div class="header">
+        <b>What is 4chan?</b>
+        <button id="dismiss-button" class="dismiss-button">X</button>
       </div>
-      <div class="boards">
-        <div class="header">
-          <li><b>Boards</b></li>
-          <li >filter ▼</li>
+      <div class="content">
+        <p>
+          4chan is a simple image-based bulletin board where anyone can post
+          comments and share images. There are boards dedicated to a variety
+          of topics, from Japanese animation and culture to videogames, music,
+          and photography. Users do not need to register an account before
+          participating in the community. Feel free to click on a board below
+          that interests you and jump right in!
+        </p>
+        <p>
+          Be sure to familiarize yourself with the
+          <a href="/">Rules</a> before posting, and read the
+          <a href="/">FAQ</a> if you wish to learn more about how to use the
+          site.
+        </p>
+      </div>
+    </div>
+    <div class="boards">
+      <div class="header">
+        <li><b>Boards</b></li>
+        <li>filter ▼</li>
+      </div>
+      <div class="content">
+        <div class="boards-list">
+          <li class="board-category">Japanese Culture</li>
+          <li>Anime &amp Manga</li>
+          <li>Anime/Cute</li>
+          <li>Anime/Wallpapers</li>
+          <li>Mecha</li>
+          <li>Cosplay & EGL</li>
+          <li>Cute/Male</li>
+          <li>Flash</li>
+          <li>Transportation</li>
+          <li>Otaku Culture</li>
+          <li class="board-category">Video Games</li>
+          <li>Video Games</li>
+          <li>Video Games Generals</li>
+          <li>Pokémon</li>
+          <li>Retro Games</li>
         </div>
-        <div class="content">
-          <div class="boards-list">
-            <li class="board-category">Japanese Culture</li>
-            <li>Anime &amp Manga</li>
-            <li>Anime/Cute</li>
-            <li>Anime/Wallpapers</li>
-            <li>Mecha</li>
-            <li>Cosplay & EGL</li>
-            <li>Cute/Male</li>
-            <li>Flash</li>
-            <li>Transportation</li>
-            <li>Otaku Culture</li>
-            <li class="board-category">Video Games</li>
-            <li>Video Games</li>
-            <li>Video Games Generals</li>
-            <li>Pokémon</li>
-            <li>Retro Games</li>
-          </div>
-          <div class="boards-list">
-            <li class="board-category">Interests</li>
-            <li>Comics & Cartoons</li>
-            <li>Technology</li>
-            <li>Television & Film</li>
-            <li>Weapons</li>
-            <li>Auto</li>
-            <li>Animal & Nature</li>
-            <li>Traditional Games</li>
-            <li>Sports</li>
-            <li>Alternative Sports</li>
-            <li>Science & Math</li>
-            <li>History & Humanities</li>
-            <li>International</li>
-            <li>Outdoors</li>
-            <li>Toys</li>
-          </div>
-          <div class="boards-list">
-            <li class="board-category">Creative</li>
-            <li>Pekaki</li>
-            <li>Papercraft & Origami</li>
-            <li>Photography</li>
-            <li>Food & Cooking</li>
-            <li>Artwork/Critique</li>
-            <li>Wallpapers/General</li>
-            <li>Literature</li>
-            <li>Music</li>
-            <li>Fashion</li>
-            <li>3DCG</li>
-            <li>Graphic Design</li>
-            <li>Do-It-Yourself</li>
-            <li>Worksafe GIF</li>
-            <li>Quests</li>
-          </div>
-          <div class="boards-list">
-            <li class="board-category">Other</li>
-            <li>Business & Finance</li>
-            <li>Travel</li>
-            <li>Fitness</li>
-            <li>Paranormal</li>
-            <li>Advice</li>
-            <li>LGBT</li>
-            <li>Pony</li>
-            <li>Current News</li>
-            <li>Worksafe Request</li>
-            <li>Very Important Posts</li>
-            <li></li>
-            <li class="board-category">Misc.</li>
-            <li>Random</li>
-            <li>ROBOT9001</li>
-            <li>Politically Incorrect</li>
-            <li>International/Random</li>
-            <li>Cams & Meetups</li>
-            <li>Things 4chas Says</li>
-          </div>
+        <div class="boards-list">
+          <li class="board-category">Interests</li>
+          <li>Comics & Cartoons</li>
+          <li>Technology</li>
+          <li>Television & Film</li>
+          <li>Weapons</li>
+          <li>Auto</li>
+          <li>Animal & Nature</li>
+          <li>Traditional Games</li>
+          <li>Sports</li>
+          <li>Alternative Sports</li>
+          <li>Science & Math</li>
+          <li>History & Humanities</li>
+          <li>International</li>
+          <li>Outdoors</li>
+          <li>Toys</li>
+        </div>
+        <div class="boards-list">
+          <li class="board-category">Creative</li>
+          <li>Pekaki</li>
+          <li>Papercraft & Origami</li>
+          <li>Photography</li>
+          <li>Food & Cooking</li>
+          <li>Artwork/Critique</li>
+          <li>Wallpapers/General</li>
+          <li>Literature</li>
+          <li>Music</li>
+          <li>Fashion</li>
+          <li>3DCG</li>
+          <li>Graphic Design</li>
+          <li>Do-It-Yourself</li>
+          <li>Worksafe GIF</li>
+          <li>Quests</li>
+        </div>
+        <div class="boards-list">
+          <li class="board-category">Other</li>
+          <li>Business & Finance</li>
+          <li>Travel</li>
+          <li>Fitness</li>
+          <li>Paranormal</li>
+          <li>Advice</li>
+          <li>LGBT</li>
+          <li>Pony</li>
+          <li>Current News</li>
+          <li>Worksafe Request</li>
+          <li>Very Important Posts</li>
+          <li></li>
+          <li class="board-category">Misc.</li>
+          <li>Random</li>
+          <li>ROBOT9001</li>
+          <li>Politically Incorrect</li>
+          <li>International/Random</li>
+          <li>Cams & Meetups</li>
+          <li>Things 4chas Says</li>
+          <!-- </div>
           <div class="boards-list">
             <li class="board-category">Corn</li>
             <li>Pretty Women</li>
@@ -126,7 +128,7 @@
             <li>GIFs</li>
             <li>Cartoons</li>
             <li>Requests</li>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="popular-threads">
@@ -241,5 +243,6 @@
         Copyright © 2003-2020 4chan community support LLC. All rights reserved.
       </div>
     </div>
-  </body>
+</body>
+
 </html>
